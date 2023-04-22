@@ -1,0 +1,55 @@
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    top: 0px;
+   
+    
+} 
+li{
+    list-style: none;
+    display: inline-block;
+   
+}
+li a{
+    margin-left: 40px;
+}
+
+.container{
+    background-color:black;
+    width: 100vh; 
+    display: grid;  
+    grid-template-columns: 200px 200px;   
+ 
+}
+
+.item{
+    background-color: pink;
+    border: 3px solid black;
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+}
+tfoot{
+    background-color: yellow;
+}
+table{
+    border-color: yellow;
+    border: hidden;
+}
+main, table{
+    background-color: black;
+}
+h1{
+    color: aliceblue;
+}
+  input{
+    border-radius: 20px;
+    
+    inline-size: 700px;
+}
+.main{
+    
+}
